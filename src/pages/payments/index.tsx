@@ -14,7 +14,7 @@ const Payments: React.FC = () => {
   const [verifySelected, setVerifySelected] = useState<number>(0);
 
   return (
-    <div className="min-h-screen w-full flex justify-center items-start gap-5 bg-gray-100 py-10">
+    <div className="min-h-screen w-full flex justify-center items-start gap-5 bg-gray-200 py-10">
       <Card>
         <div className="flex flex-col gap-3">
           <h1 className="text-5xl font-bold">Finalizar Compra</h1>
